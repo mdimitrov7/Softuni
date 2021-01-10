@@ -1,0 +1,24 @@
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+
+body {
+    padding: 3em;
+}
+
+a {
+    text-decoration: none;
+    padding: 9.6px;
+    border-radius: 5px;
+    color: white;
+}
+
+p {
+    margin-top: 48px;
+}
+
+.green {
+    background: green;
+}
+
+.orange {
+    background: orange;
+}
