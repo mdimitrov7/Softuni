@@ -1,0 +1,55 @@
+@import url("https://use.fontawesome.com/releases/v5.8.2/css/all.css");
+
+body {
+  margin: 0;
+}
+
+.viewport {
+  display: block;
+  position: relative;
+}
+
+div:first-of-type {
+  background: linear-gradient(
+    90deg,
+    rgba(25, 92, 157, 1) 0%,
+    rgba(66, 205, 162, 1) 100%
+  );
+  height: 110vh;
+}
+
+.firstpic {
+  position: absolute;
+  left: 32%;
+  top: 19%;
+  border-radius: 5px;
+}
+
+.fa-link {
+  position: absolute;
+  left: 67%;
+  bottom: 37%;
+  color: wheat;
+}
+
+div:last-of-type {
+  background: linear-gradient(
+    90deg,
+    rgba(168, 50, 120, 1) 0%,
+    rgba(210, 130, 18, 1) 100%
+  );
+  height: 130vh;
+}
+
+.secondpic {
+  position: absolute;
+  left: 32%;
+  top: 7%;
+  border-radius: 5px;
+}
+
+.fa-star {
+  position: absolute;
+  left: 67%;
+  bottom: 6.5%;
+}
