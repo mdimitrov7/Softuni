@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body > * {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-basis: 100%;
+  max-width: 65vw;
+  margin: 50px;
+}
+
+.week {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 85%;
+}
+
+span {
+  padding: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.week span:nth-child(1),
+.week span:nth-child(7) {
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+.week span {
+  flex-grow: 2;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.notes span {
+  flex-basis: 15%;
+  flex-grow: 1;
+}
